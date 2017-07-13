@@ -32,7 +32,7 @@ public class EyeExerciseReminder {
            public void run() {
               systemTrayMechanism.showNotification(APPLICATION_TITLE, "Exercise Your Eyes!");
            }
-        }, REMINDER_INTERVAL * 60, REMINDER_INTERVAL * 60);
+        }, REMINDER_INTERVAL * 60 * 1000, REMINDER_INTERVAL * 60 * 1000);
 
     }
     
